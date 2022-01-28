@@ -1,3 +1,5 @@
+// const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -40,7 +42,9 @@ module.exports = {
       purple: colors.purple,
       fuchsia: colors.fuchsia,
       pink: colors.pink,
-      rose: colors.rose
+      rose: colors.rose,
+      primary: '#019c48',
+      secondary: '#f8fb07'
     }),
     columns: {
       auto: 'auto',
@@ -953,5 +957,15 @@ module.exports = {
     'active',
     'disabled'
   ],
-  plugins: []
+  plugins: [
+  //   plugin(function ({ addUtilities }) {
+  //     const utilities = {
+  //       '.bg-main': {
+  //         'background-image': 'url(/assets/images/bg.png)'
+  //       }
+  //     }
+
+  //     addUtilities(utilities)
+  //   })
+  ]
 }
