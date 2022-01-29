@@ -1,23 +1,15 @@
 import { MenuIcon } from '@heroicons/react/outline'
 import { useState, useEffect } from 'react'
+import HeaderMenu from './HeaderMenu'
 
 const Header = () => {
   const [bg, setBg] = useState('')
-  const [text, setText] = useState('text-white')
-  const [hover, setHover] = useState('text-secondary')
-  const [color, setColor] = useState('text-white')
 
   const listenScrollEvent = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 25) {
       setBg('bg-white')
-      setText('text-black')
-      setHover('text-primary')
-      setColor('text-primary')
     } else {
       setBg('')
-      setText('text-white')
-      setHover('text-secondary')
-      setColor('text-white')
     }
   }
 
@@ -26,7 +18,7 @@ const Header = () => {
   })
 
   return (
-    <div className="fixed top-0 left-0 right-0">
+    <div className="fixed top-0 left-0 right-0 font-sora">
         <div className={`${bg} ${bg !== '' && 'shadow-md'}`}>
             <div className="w-full 2xl:w-10/12 2xl:mx-auto px-4 py-4 lg:px-8 lg:py-6">
                 <div className="flex justify-between items-center">
@@ -36,13 +28,13 @@ const Header = () => {
                             alt='logo' loading='lazy'
                         />
                     </div>
-                    <ul className="hidden lg:flex space-x-10 items-center text-black">
-                        <li className="hover:text-primary cursor-pointer transition-all duration-300 ease-in-out">Beranda</li>
-                        <li className="hover:text-primary cursor-pointer transition-all duration-300 ease-in-out">Profil Madrasah</li>
-                        <li className="hover:text-primary cursor-pointer transition-all duration-300 ease-in-out">Berita Madrasah</li>
-                        <li className="hover:text-primary cursor-pointer transition-all duration-300 ease-in-out">Kurikulum</li>
-                        <li className="hover:text-primary cursor-pointer transition-all duration-300 ease-in-out">PPDB</li>
-                        <li className="hover:text-primary cursor-pointer transition-all duration-300 ease-in-out">Kontak</li>
+                    <ul className="hidden lg:flex lg:space-x-6 2xl:space-x-10 items-center text-black">
+                        <HeaderMenu menu={'Beranda'}/>
+                        <HeaderMenu menu={'Profil Madrasah'}/>
+                        <HeaderMenu menu={'Berita Madrasah'}/>
+                        <HeaderMenu menu={'Kurikulum'}/>
+                        <HeaderMenu menu={'PPDB'}/>
+                        <HeaderMenu menu={'Kontak'}/>
                         <li className="flex items-center space-x-3">
                             <img className="w-6 h-auto -mr-1" alt="facebook" src="/assets/icons/facebook.png"/>
                             <img className="w-6 h-auto" alt="facebook" src="/assets/icons/ig.png"/>
