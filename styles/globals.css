@@ -3,11 +3,28 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
-.bg-main{
-    background-image: url("/assets/images/bg.png");
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover;
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+@media (min-width: 1024px) {
+    .bg-main{
+        background-image: url("/assets/images/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 640px) {
+    .bg-main{
+        background-color: #019c48;
+        height: 80vh;
+    }
 }
 
 .menu-title:after {

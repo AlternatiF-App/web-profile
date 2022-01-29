@@ -42,7 +42,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="block lg:hidden">
-                        <MenuIcon className="h-5 w-5 text-primary"
+                        <MenuIcon className={`h-5 w-5 ${bg === '' ? 'text-white' : 'text-primary'}`}
                             fill="none" stroke="currentColor"
                         />
                     </div>
