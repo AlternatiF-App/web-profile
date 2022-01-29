@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react'
 import HeaderMenu from './HeaderMenu'
 
 const Header = () => {
-  const [bg, setBg] = useState('')
+  const [bg, setBg] = useState('bg-primary lg:bg-transparent')
 
   const listenScrollEvent = () => {
     if (window.scrollY > 25) {
       setBg('bg-white')
     } else {
-      setBg('')
+      setBg('bg-primary lg:bg-transparent')
     }
   }
 
@@ -19,12 +19,12 @@ const Header = () => {
 
   return (
     <div className="fixed top-0 left-0 right-0 font-sora">
-        <div className={`${bg} ${bg !== '' && 'shadow-md'}`}>
+        <div className={`${bg} ${bg !== 'bg-primary lg:bg-transparent' && 'shadow-md'}`}>
             <div className="w-full 2xl:w-10/12 2xl:mx-auto px-4 py-4 lg:px-8 lg:py-6">
                 <div className="flex justify-between items-center">
                     <div>
                         <img className="w-auto h-8 lg:h-16"
-                            src={`/assets/images/${bg === '' ? 'logo.png' : 'logo-white.png'}`}
+                            src={`/assets/images/${bg === 'bg-primary lg:bg-transparent' ? 'logo.png' : 'logo-white.png'}`}
                             alt='logo' loading='lazy'
                         />
                     </div>
@@ -42,7 +42,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="block lg:hidden">
-                        <MenuIcon className={`h-5 w-5 ${bg === '' ? 'text-white' : 'text-primary'}`}
+                        <MenuIcon className={`h-5 w-5 ${bg === 'bg-primary lg:bg-transparent' ? 'text-white' : 'text-primary'}`}
                             fill="none" stroke="currentColor"
                         />
                     </div>

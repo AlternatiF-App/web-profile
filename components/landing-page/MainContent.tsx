@@ -2,9 +2,9 @@ import { FilmIcon } from '@heroicons/react/outline'
 
 const MainContent = () => {
   return (
-    <div className="bg-main pt-20 lg:pt-28 font-sora hide-scroll-bar">
-        <div className="w-full 2xl:w-10/12 2xl:mx-auto lg:flex">
-            <div className="w-full lg:w-1/2 text-white px-6 py-4 lg:py-6 lg:px-8 2xl:px-20 2xl:py-40">
+    <div className="bg-main pt-16 lg:pt-28 font-sora hide-scroll-bar">
+        <div className="w-full 2xl:w-10/12 2xl:mx-auto lg:flex px-0 lg:px-8">
+            <div className="w-full lg:w-1/2 bg-primary lg:bg-transparent text-white px-6 py-10 lg:py-6 lg:px-8 2xl:px-20 2xl:py-40">
                 <span className="block text-sm lg:text-base 2xl:text-xl">Welcome to</span>
                 <h1 className="text-[44px] lg:text-6xl 2xl:text-8xl font-bold pt-0 lg:pt-4">MI As - Shodiq</h1>
                 <h2 className="text-xl lg:text-2xl 2xl:text-3xl">Kuwolu, Bululawang</h2>
