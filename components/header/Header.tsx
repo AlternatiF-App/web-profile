@@ -5,7 +5,6 @@ import HeaderMenu from './HeaderMenu'
 const Header = () => {
   const [bg, setBg] = useState('bg-primary lg:bg-transparent')
   const [menu, setMenu] = useState(false)
-  const [slide, setSlide] = useState('opacity-0')
 
   const listenScrollEvent = () => {
     if (window.scrollY > 25) {
@@ -45,10 +44,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="block lg:hidden">
-                        <MenuIcon onClick={() => {
-                          setMenu(!menu)
-                          setSlide('opacity-100')
-                        }}
+                        <MenuIcon onClick={() => setMenu(!menu)}
                             className={`h-5 w-5 ${bg === 'bg-primary lg:bg-transparent' ? 'text-white' : 'text-primary'}`}
                             fill="none" stroke="currentColor"
                         />
@@ -58,7 +54,7 @@ const Header = () => {
         </div>
     </div>
     <div className="block lg:hidden relative z-50 transition duration-300 ease-in-out">
-        <div onClick={() => setMenu(!menu)} className={`${menu ? 'opacity-40' : 'opacity-0'} fixed inset-0 bg-black transition-all duration-300 ease-in"`}/>
+        <div onClick={() => setMenu(!menu)} className={`${menu ? 'opacity-40' : 'opacity-0 invisible'} fixed inset-0 bg-black transition-all duration-300 ease-in-out"`}/>
         <nav className={`${menu ? 'translate-x-0' : '-translate-x-full'} fixed inset-y-0 left-0 w-5/6 max-w-sm bg-white shadow-md overflow-y-auto transition duration-300 ease-in-out`}>
             <div className="py-8">
                 <div className="px-4">
