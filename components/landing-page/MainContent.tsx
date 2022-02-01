@@ -1,4 +1,3 @@
-import { FilmIcon } from '@heroicons/react/outline'
 
 const MainContent = () => {
   return (
@@ -11,19 +10,15 @@ const MainContent = () => {
                 <p className="pt-6 2xl:pt-10 text-sm lg:text-base">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
                 </p>
-                <div className="pt-8 2xl:pt-16 flex space-x-8">
-                    <button className="w-1/2 lg:w-auto lg:px-14 py-2 bg-white text-primary text-base 2xl:text-xl font-medium rounded-xl">
+                <div className="pt-8 2xl:pt-16">
+                    <button className="w-full lg:w-auto lg:px-16 py-2 bg-white text-primary text-base 2xl:text-xl font-medium rounded-xl">
                         Daftar
-                    </button>
-                    <button className="w-1/2 lg:w-auto lg:px-14 py-2 flex justify-center items-center border-white border text-white text-base 2xl:text-xl font-medium rounded-xl">
-                        <FilmIcon className="h-5 w-5 mr-2" fill="none" stroke="currentColor"/>
-                        Trailer
                     </button>
                 </div>
             </div>
             <div className="w-full lg:w-1/2 py-14 lg:py-8 2xl:py-20 lg:px-10">
                 <img className="w-full h-auto mx-auto"
-                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fvectors%2Fstudy-time-poster-with-student-and-books-stack-vector-id1174407595%3Fk%3D6%26m%3D1174407595%26s%3D612x612%26w%3D0%26h%3DVmGGDoshuAYs10POCXbLPbMBvy7ZhXfAOXKJN-i2a4k%3D&f=1&nofb=1"
+                    src="/assets/images/vector.png"
                     alt="vector" loading="lazy"
                 />
             </div>

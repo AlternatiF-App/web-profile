@@ -8,10 +8,26 @@ const SecondContent = () => {
                 Alasan kenapa kalian semua harus bergabung dengan MI As - Shodiq.
           </span>
           <ul className="pt-14 lg:flex space-y-20 lg:space-y-0 lg:space-x-20 lg:items-center lg:justify-center">
-              <ItemSecondContent/>
-              <ItemSecondContent/>
-              <ItemSecondContent/>
-              <ItemSecondContent/>
+            <ItemSecondContent
+                icon={1}
+                title={'Fasilitas Memadai'}
+                subtitle={'Fasilitas di Madrasah memenuhi standard.'}
+            />
+            <ItemSecondContent
+                icon={2}
+                title={'Pengajar Kompeten'}
+                subtitle={'Guru yang up-to-date dengan metode pembelajaran.'}
+            />
+            <ItemSecondContent
+                icon={3}
+                title={'Lingkungan Nyaman'}
+                subtitle={'Berada di lingkungan yang asri, aman, dan kondusif.'}
+            />
+            <ItemSecondContent
+                icon={4}
+                title={'Lokasi Strategis'}
+                subtitle={'Lokasi yang strategis untuk anak - anak.'}
+            />
           </ul>
       </div>
   )
