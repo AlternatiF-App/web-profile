@@ -15,15 +15,10 @@ const Extracurricular = () => {
                 </div>
           </div>
           <div className="w-full lg:w-1/2 lg:flex pt-10 lg:pt-0">
-                <div className="w-1/2 space-y-8">
-                    <ItemExtracurricular title={'Pidato'} subtitle={'3 Bahasa'}/>
-                    <ItemExtracurricular title={'Puisi'}/>
-                    <ItemExtracurricular title={'Kaligrafi'} subtitle={'Melukis'}/>
-                </div>
-                <div className="w-1/2 space-y-8 pt-8 lg:pt-0">
-                    <ItemExtracurricular title={'Tahfidz'}/>
-                    <ItemExtracurricular title={'Pramuka'}/>
-                    <ItemExtracurricular title={'Catur'}/>
+                <div className="w-full space-y-8">
+                    <ItemExtracurricular title={'Kesenian'} subtitle={'5 Cabang'}/>
+                    <ItemExtracurricular title={'Olahraga'} subtitle={'1 Cabang'}/>
+                    <ItemExtracurricular title={'Akademik'} subtitle={'1 Cabang'}/>
                 </div>
           </div>
       </div>

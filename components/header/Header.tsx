@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <>
-    <div className="fixed top-0 left-0 right-0 font-sora">
+    <div className="fixed top-0 left-0 right-0 font-sora z-50">
         <div className={`${bg} ${bg !== 'bg-primary lg:bg-transparent' && 'shadow-md'}`}>
             <div className="w-full 2xl:w-10/12 2xl:mx-auto px-4 py-4 lg:px-8 lg:py-6">
                 <div className="flex justify-between items-center">
