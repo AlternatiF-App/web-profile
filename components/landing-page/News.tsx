@@ -2,7 +2,7 @@ import ItemNews from '../items/ItemNews'
 
 const News = () => {
   return (
-    <div className="w-full 2xl:w-8/12 2xl:mx-auto px-6 lg:px-8 py-20">
+    <div className="w-full 2xl:w-8/12 2xl:mx-auto font-sora px-6 lg:px-8 py-20">
         <h1 className="text-3xl lg:text-4xl font-bold text-center pt-4">Berita Terbaru</h1>
         <p className="text-center text-sm lg:text-xl font-light">Ikuti terus informasi dan berita-berita terbaru tentang MI As - Shodiq.</p>
         <div className="lg:flex lg:space-x-8 pt-20">

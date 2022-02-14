@@ -10,6 +10,7 @@ import Sport from '../components/landing-page/Sport'
 import Academic from '../components/landing-page/Academic'
 import Gallery from '../components/landing-page/Gallery'
 import News from '../components/landing-page/News'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <Academic/>
       <Gallery/>
       <News/>
+      <Footer/>
     </>
   )
 }
