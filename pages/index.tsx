@@ -9,6 +9,7 @@ import Trailer from '../components/landing-page/Trailer'
 import Sport from '../components/landing-page/Sport'
 import Academic from '../components/landing-page/Academic'
 import Gallery from '../components/landing-page/Gallery'
+import News from '../components/landing-page/News'
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Sport/>
       <Academic/>
       <Gallery/>
+      <News/>
     </>
   )
 }
