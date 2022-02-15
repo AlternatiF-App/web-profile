@@ -22,21 +22,20 @@ const Header = () => {
     <>
     <div className="fixed top-0 left-0 right-0 font-sora z-50">
         <div className={`${bg} ${bg !== 'bg-primary lg:bg-transparent' && 'shadow-md'}`}>
-            <div className="w-full 2xl:w-10/12 2xl:mx-auto px-4 py-4 lg:px-8 lg:py-6">
+            <div className="w-full 2xl:w-10/12 2xl:mx-auto px-4 lg:px-8">
                 <div className="flex justify-between items-center">
-                    <div>
+                    <div className="">
                         <img className="w-auto h-8 lg:h-16"
                             src={`/assets/images/${bg === 'bg-primary lg:bg-transparent' ? 'logo.png' : 'logo-white.png'}`}
                             alt='logo' loading='lazy'
                         />
                     </div>
-                    <ul className="hidden lg:flex lg:space-x-6 2xl:space-x-10 items-center text-black">
+                    <ul className="hidden lg:flex lg:space-x-6 items-center text-black">
                         <HeaderMenu menu={'Beranda'}/>
-                        <HeaderMenu menu={'Profil Madrasah'}/>
-                        <HeaderMenu menu={'Berita Madrasah'}/>
-                        <HeaderMenu menu={'Kurikulum'}/>
+                        <HeaderMenu menu={'Tentang Kami'}/>
+                        <HeaderMenu menu={'Program'}/>
+                        <HeaderMenu menu={'Hubungi Kami'}/>
                         <HeaderMenu menu={'PPDB'}/>
-                        <HeaderMenu menu={'Kontak'}/>
                         <li className="flex items-center space-x-3">
                             <img className="w-6 h-auto -mr-1" alt="facebook" src="/assets/icons/facebook.png"/>
                             <img className="w-6 h-auto" alt="facebook" src="/assets/icons/ig.png"/>
@@ -65,16 +64,15 @@ const Header = () => {
                 </div>
                 <ul className="pl-4 pt-8 text-xl">
                     <li className={'py-3 border-r-4 border-primary cursor-pointer'}>Beranda</li>
-                    <li className={'py-3 cursor-pointer'}>Profil Madrasah</li>
-                    <li className={'py-3 cursor-pointer'}>Berita Madrasah</li>
-                    <li className={'py-3 cursor-pointer'}>Kurikulum</li>
+                    <li className={'py-3 cursor-pointer'}>Tentang Kami</li>
+                    <li className={'py-3 cursor-pointer'}>Program</li>
+                    <li className={'py-3 cursor-pointer'}>Hubungi Kami</li>
                     <li className={'py-3 cursor-pointer'}>PPDB</li>
-                    <li className={'py-3 cursor-pointer'}>Kontak</li>
                 </ul>
                 <div className="fixed w-full inset-x-0 bottom-0 px-4 mb-4">
                     <button className="w-full px-4 py-2 rounded-xl bg-primary text-white">
                         <a href="https://wa.me/6282142931584?text=We%20are%20interested%20in%20working%20with%20you">
-                            WhatsApp Me
+                            WhatsApp Kami
                         </a>
                     </button>
                 </div>
