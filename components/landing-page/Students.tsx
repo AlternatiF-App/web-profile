@@ -11,7 +11,7 @@ const Students = () => {
                         Semuanya berkesempatan bergabung dengan kami.
                     </p>
                 </div>
-                <div className="pt-20 flex flex-wrap lg:flex-auto justify-center space-x-4 lg:space-x-20">
+                <div className="pt-20 pb-10 flex flex-wrap lg:flex-auto justify-center space-x-4 lg:space-x-20">
                     <ItemStudents total={212} title={'total'} />
                     <ItemStudents total={212} title={'total'} padding={'mt-20'} />
                     <ItemStudents total={212} title={'total'} />

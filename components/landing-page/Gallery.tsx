@@ -58,7 +58,7 @@ const Gallery = () => {
 
   return (
     <div className="font-sora py-10">
-        <div className="bg-primary">
+        <div className="bg-primary text-white">
             <div className="w-full 2xl:w-10/12 2xl:mx-auto px-6 lg:px-8 py-20">
                 <p className="text-center text-sm lg:text-xl font-light">Yuk, pelajari lebih dalam tentang MI As - Shodiq</p>
                 <h1 className="text-3xl lg:text-4xl font-bold text-center pt-4">Galeri Foto Aktivitas MI As - Shodiq.</h1>
