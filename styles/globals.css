@@ -14,7 +14,7 @@
 
 @media (min-width: 1024px) {
     .bg-main{
-        background-image: url("/assets/images/bg.png");
+        background-image: url("/assets/images/bg-png.png");
         background-repeat: no-repeat;
         background-size: cover;
     }

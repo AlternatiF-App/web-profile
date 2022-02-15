@@ -19,7 +19,7 @@ const Trailer = () => {
             Biar kalian tidak penasaran apa saja yang ada di dalam SMK Telkom Malang, segera tonton video profilnya.
           </p>
           <div className="pt-8">
-            <button className="px-14 py-2 w-full lg:w-auto flex items-center text-base lg:text-lg 2xl:text-xl rounded-xl text-white bg-primary">
+            <button className="px-14 py-2 w-full lg:w-auto flex items-center justify-center text-base lg:text-lg 2xl:text-xl rounded-xl text-white bg-primary">
               <FilmIcon className="h-5 w-5 mr-2" fill="none" stroke="currentColor"/>
               Play
             </button>

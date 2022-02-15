@@ -1,7 +1,7 @@
 
 const Greeting = () => {
   return (
-    <div className="w-full 2xl:w-10/12 2xl:ml-auto lg:flex font-sora px-6 lg:px-8 lg:py-20">
+    <div className="w-full 2xl:w-10/12 2xl:ml-auto lg:flex font-sora px-6 py-10 lg:px-8 lg:py-20">
         <div className="w-full lg:w-1/2 2xl:px-10">
             <span className="block text-base lg:text-lg 2xl:text-xl">Sambutan</span>
             <h1 className="text-4xl lg:text-6xl 2xl:text-7xl font-medium pt-2">Kepala Sekolah</h1>

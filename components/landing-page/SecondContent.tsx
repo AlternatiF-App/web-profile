@@ -2,7 +2,7 @@ import ItemSecondContent from '../items/ItemSecondContent'
 
 const SecondContent = () => {
   return (
-      <div className="w-full 2xl:w-10/12 2xl:mx-auto font-sora px-6 py-14 lg:px-8 lg:py-28">
+      <div className="w-full 2xl:w-10/12 2xl:mx-auto font-sora px-6 py-10 lg:px-8 lg:py-28">
           <h1 className="text-4xl lg:text-5xl font-medium text-center">Kenapa harus As - Shodiq ?</h1>
           <span className="block pt-8 font-thin text-xl lg:text-2xl text-center">
                 Alasan kenapa kalian semua harus bergabung dengan MI As - Shodiq.

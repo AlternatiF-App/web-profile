@@ -2,8 +2,8 @@
 const Footer = () => {
   return (
     <>
-        <div className="lg:flex lg:space-x-8 w-full 2xl:w-8/12 2xl:mx-auto font-sora px-6 py-4 lg:px-8 lg:py-20">
-            <div className="w-full lg:w-1/3">
+        <div className="lg:flex lg:space-x-8 w-full 2xl:w-10/12 2xl:mx-auto font-sora px-6 py-4 lg:px-8 lg:py-20">
+            <div className="w-full lg:w-1/3 lg:px-8 2xl:px-24 flex items-center">
                 <img className="w-full h-auto"
                     src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-vector%2Fman-multitasking-work_23-2148390869.jpg&f=1&nofb=1"
                     alt="vector" loading="lazy"
