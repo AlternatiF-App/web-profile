@@ -10,30 +10,7 @@ const Footer = () => {
                 />
             </div>
             <div className="w-full lg:w-2/3 py-8 lg:px-10 lg:flex space-y-8 lg:space-y-0">
-                <div className="space-y-8 w-full lg:w-1/3">
-                    <ul className="space-y-2">
-                        <li className="font-semibold">Menu Utama</li>
-                        <li className="pt-2 font-light cursor-pointer">Beranda</li>
-                        <li className="font-light cursor-pointer">Tentang Kami</li>
-                        <li className="font-light cursor-pointer">Profil Madrasah</li>
-                        <li className="font-light cursor-pointer">PPDB</li>
-                    </ul>
-                    <ul className="space-y-2">
-                        <li className="font-semibold">Menu Utama</li>
-                        <li className="pt-2 font-light cursor-pointer">Beranda</li>
-                        <li className="font-light cursor-pointer">Tentang Kami</li>
-                        <li className="font-light cursor-pointer">Profil Madrasah</li>
-                        <li className="font-light cursor-pointer">PPDB</li>
-                    </ul>
-                </div>
-                <div className="space-y-8 w-full lg:w-1/3">
-                    <ul className="space-y-2">
-                        <li className="font-semibold">Menu Utama</li>
-                        <li className="pt-2 font-light cursor-pointer">Beranda</li>
-                        <li className="font-light cursor-pointer">Tentang Kami</li>
-                        <li className="font-light cursor-pointer">Profil Madrasah</li>
-                        <li className="font-light cursor-pointer">PPDB</li>
-                    </ul>
+                <div className="w-full lg:w-1/3">
                     <ul className="space-y-2">
                         <li className="font-semibold">Menu Utama</li>
                         <li className="pt-2 font-light cursor-pointer">Beranda</li>
@@ -42,7 +19,7 @@ const Footer = () => {
                         <li className="font-light cursor-pointer">PPDB</li>
                     </ul>
                 </div>
-                <div className="space-y-8 w-full lg:w-1/3">
+                <div className="w-full lg:w-1/3">
                     <ul className="space-y-2">
                         <li className="font-semibold">Menu Utama</li>
                         <li className="pt-2 font-light cursor-pointer">Beranda</li>
@@ -50,6 +27,8 @@ const Footer = () => {
                         <li className="font-light cursor-pointer">Profil Madrasah</li>
                         <li className="font-light cursor-pointer">PPDB</li>
                     </ul>
+                </div>
+                <div className="w-full lg:w-1/3">
                     <ul className="space-y-2">
                         <li className="font-semibold">Menu Utama</li>
                         <li className="pt-2 font-light cursor-pointer">Beranda</li>

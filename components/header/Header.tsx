@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import HeaderMenu from './HeaderMenu'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import HeaderMenuMobile from './HeaderMenuMobile'
 
 const Header = () => {
   const router = useRouter()
@@ -71,12 +72,12 @@ const Header = () => {
                     alt='logo' loading='lazy'
                   />
                 </div>
-                <ul className="pl-4 pt-8 text-xl">
-                    <li className={'py-3 border-r-4 border-primary cursor-pointer'}>Beranda</li>
-                    <li className={'py-3 cursor-pointer'}>Tentang Kami</li>
-                    <li className={'py-3 cursor-pointer'}>Program</li>
-                    <li className={'py-3 cursor-pointer'}>Hubungi Kami</li>
-                    <li className={'py-3 cursor-pointer'}>PPDB</li>
+                <ul className="px-2 pt-8">
+                    <HeaderMenuMobile title={'Beranda'}/>
+                    <HeaderMenuMobile title={'Tentang Kami'}/>
+                    <HeaderMenuMobile title={'Program'}/>
+                    <HeaderMenuMobile title={'Hubungi Kami'}/>
+                    <HeaderMenuMobile title={'PPDB'}/>
                 </ul>
                 <div className="fixed w-full inset-x-0 bottom-0 px-4 mb-4">
                     <button className="w-full px-4 py-2 rounded-xl bg-primary text-white">

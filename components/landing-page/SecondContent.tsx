@@ -7,7 +7,7 @@ const SecondContent = () => {
           <span className="block pt-8 font-thin text-xl lg:text-2xl text-center">
                 Alasan kenapa kalian semua harus bergabung dengan MI As - Shodiq.
           </span>
-          <ul className="pt-14 lg:flex space-y-20 lg:space-y-0 lg:space-x-20 lg:items-center lg:justify-center">
+          <ul className="pt-16 lg:flex space-y-20 lg:space-y-0 lg:space-x-20 lg:items-center lg:justify-center">
             <ItemSecondContent
                 icon={1}
                 title={'Fasilitas Memadai'}

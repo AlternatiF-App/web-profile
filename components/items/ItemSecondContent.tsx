@@ -40,11 +40,11 @@ const ItemSecondContent = ({ icon, title, subtitle }:ItemSecondContentProps) => 
                     }
                 </a>
           </div>
-          <div className="pt-5 space-y-4 text-lg lg:text-xl">
+          <div className="pt-6 space-y-4 text-lg lg:text-xl">
             <h1 className="font-semibold text-center">
                 {title}
             </h1>
-            <p className="font-thin text-center">
+            <p className="font-thin text-center h-auto lg:h-24 2xl:h-auto">
                 {subtitle}
             </p>
           </div>
