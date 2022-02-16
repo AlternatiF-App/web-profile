@@ -1,6 +1,6 @@
 import ItemExtracurricular from '../items/ItemExtracurricular'
 
-const Extracurricular = () => {
+const Extra = () => {
   return (
       <div className="w-full 2xl:w-8/12 2xl:mx-auto lg:flex font-sora px-6 py-20 2xl:px-10">
           <div className="w-full lg:w-1/2">
@@ -25,4 +25,4 @@ const Extracurricular = () => {
   )
 }
 
-export default Extracurricular
+export default Extra

@@ -48,12 +48,16 @@ const HeaderMenuMobile = ({ title }:HeaderMenuMobileProps) => {
                     <li className="py-2 cursor-pointer">
                         <Link href="/profile-madrasah">Profil Madrasah</Link>
                     </li>
-                    <li className="py-2 cursor-pointer">Visi & Misi</li>
+                    <li className="py-2 cursor-pointer">
+                        <Link href="/vision-and-mission">Visi & Misi</Link>
+                    </li>
                 </div>
             }
             {
                 (content === 'Program' && show) && <div className={`${(show && content === 'Program') ? ('opacity-100') : ('opacity-0 invisible')} transition-all duration-1000 ease-in-out`}>
-                    <li className="py-2 cursor-pointer">Ekstrakurikuler</li>
+                    <li className="py-2 cursor-pointer">
+                        <Link href="/extracurricular">Ekstrakurikuler</Link>
+                    </li>
                 </div>
             }
             {

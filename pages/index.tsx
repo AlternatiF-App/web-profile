@@ -1,5 +1,5 @@
 import Header from '../components/header/Header'
-import Extracurricular from '../components/landing-page/Extracurricular'
+import Extra from '../components/landing-page/Extra'
 import Greeting from '../components/landing-page/Greeting'
 import Art from '../components/landing-page/Art'
 import MainContent from '../components/landing-page/MainContent'
@@ -21,7 +21,7 @@ const Home = () => {
       <Greeting/>
       <Trailer/>
       <Students/>
-      <Extracurricular/>
+      <Extra/>
       <Art/>
       <Sport/>
       <Academic/>

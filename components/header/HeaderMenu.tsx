@@ -12,7 +12,13 @@ const HeaderMenu = ({ menu }:HeaderMenuProps) => {
   const [content, setContent] = useState('')
 
   const checkRouter = () => {
-    if (router.route.split('/')[1] === 'profile-madrasah') return true
+    if (router.route.split('/')[1] === 'profile-madrasah') {
+      return true
+    } else if (router.route.split('/')[1] === 'vision-and-mission') {
+      return true
+    } else if (router.route.split('/')[1] === 'extracurricular') {
+      return true
+    }
   }
 
   const showMenu = (e:string) => {
@@ -21,7 +27,7 @@ const HeaderMenu = ({ menu }:HeaderMenuProps) => {
   }
 
   return (
-        <li className="relative">
+        <li className="relative group">
             <div className={`${checkRouter() ? 'menu-title2' : 'menu-title'} py-4 lg:py-6 cursor-pointer group transition-all duration-300 ease-in-out inline-block`}
                 onMouseOver={() => showMenu(menu)}
                 onMouseLeave={() => setShow(false)}
@@ -45,12 +51,16 @@ const HeaderMenu = ({ menu }:HeaderMenuProps) => {
                         <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">
                             <Link href="/profile-madrasah">Profil Madrasah</Link>
                         </li>
-                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">Visi & Misi</li>
+                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">
+                            <Link href="/vision-and-mission">Visi & Misi</Link>
+                        </li>
                     </>
                 }
                 {
                     content === 'Program' && <>
-                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">Ekstrakurikuler</li>
+                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">
+                            <Link href="/extracurricular">Ekstrakurikuler</Link>
+                        </li>
                     </>
                 }
                 {

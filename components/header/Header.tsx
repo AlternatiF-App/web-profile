@@ -11,7 +11,13 @@ const Header = () => {
   const [menu, setMenu] = useState(false)
 
   const checkRouter = () => {
-    if (router.route.split('/')[1] === 'profile-madrasah') return true
+    if (router.route.split('/')[1] === 'profile-madrasah') {
+      return true
+    } else if (router.route.split('/')[1] === 'vision-and-mission') {
+      return true
+    } else if (router.route.split('/')[1] === 'extracurricular') {
+      return true
+    }
   }
 
   const listenScrollEvent = () => {
