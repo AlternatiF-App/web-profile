@@ -18,6 +18,10 @@ const HeaderMenu = ({ menu }:HeaderMenuProps) => {
       return true
     } else if (router.route.split('/')[1] === 'extracurricular') {
       return true
+    } else if (router.route.split('/')[1] === 'question-box') {
+      return true
+    } else if (router.route.split('/')[1] === 'suggestion') {
+      return true
     }
   }
 
@@ -68,7 +72,9 @@ const HeaderMenu = ({ menu }:HeaderMenuProps) => {
                         <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">
                             <Link href="/question-box">Kotak Pertanyaan</Link>
                         </li>
-                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">Saran Orang Tua / Wali Murid</li>
+                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">
+                            <Link href="/suggestion">Saran Orang Tua / Wali Murid</Link>
+                        </li>
                     </>
                 }
             </div>

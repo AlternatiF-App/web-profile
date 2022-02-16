@@ -65,7 +65,9 @@ const HeaderMenuMobile = ({ title }:HeaderMenuMobileProps) => {
                     <li className="py-2 cursor-pointer">
                       <Link href="/question-box">Kotak Pertanyaan</Link>
                     </li>
-                    <li className="py-2 cursor-pointer">Saran Orang Tua / Wali Murid</li>
+                    <li className="py-2 cursor-pointer">
+                      <Link href="/suggestion">Saran Orang Tua / Wali Murid</Link>
+                    </li>
                 </div>
             }
         </div>

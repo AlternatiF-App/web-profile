@@ -42,7 +42,7 @@ const QuestionBox = () => {
                             />
                         </div>
                         <div>
-                            <button className="px-6 py-2 w-full text-center rounded-md bg-primary text-white">
+                            <button className="px-6 py-2 w-full lg:w-auto text-center rounded-md bg-primary text-white">
                                 Kirim Pertanyaan
                             </button>
                         </div>

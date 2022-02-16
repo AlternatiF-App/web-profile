@@ -17,6 +17,10 @@ const Header = () => {
       return true
     } else if (router.route.split('/')[1] === 'extracurricular') {
       return true
+    } else if (router.route.split('/')[1] === 'question-box') {
+      return true
+    } else if (router.route.split('/')[1] === 'suggestion') {
+      return true
     }
   }
 
