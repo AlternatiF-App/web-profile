@@ -6,8 +6,8 @@ const VisionAndMission = () => {
     <>
         <Header/>
             <div className="hide-scroll-bar font-sora">
-                <div className="bg-primary text-white h-[200px] lg:h-[450px] pt-24 lg:pt-60">
-                    <h1 className="text-4xl text-center font-semibold">Visi dan Misi</h1>
+                <div className="bg-primary text-white h-[200px] lg:h-[450px] pt-28 lg:pt-60">
+                    <h1 className="text-2xl lg:text-4xl text-center font-semibold">Visi dan Misi</h1>
                 </div>
                 <div className="w-full 2xl:w-8/12 2xl:mx-auto px-6 py-10 lg:px-8 lg:py-20">
                     <div className="flex justify-between items-center">

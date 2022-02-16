@@ -11,11 +11,11 @@ const Students = () => {
                         Semuanya berkesempatan bergabung dengan kami.
                     </p>
                 </div>
-                <div className="pt-20 pb-10 flex flex-col lg:flex-row lg:flex-auto justify-center items-center space-y-20 lg:space-y-0 space-x-4 lg:space-x-20">
+                <div className="pt-20 pb-10 flex flex-col lg:flex-row justify-center items-center space-y-20 lg:space-y-0 lg:space-x-20">
                     <ItemStudents total={212} title={'total'} />
-                    <ItemStudents total={212} title={'total'} padding={'lg:mt-20'} />
+                    <ItemStudents total={212} title={'total'}/>
                     <ItemStudents total={212} title={'total'} />
-                    <ItemStudents total={212} title={'total'} padding={'lg:mt-20'} />
+                    <ItemStudents total={212} title={'total'}/>
                 </div>
           </div>
       </div>

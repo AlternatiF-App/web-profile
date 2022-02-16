@@ -62,7 +62,9 @@ const HeaderMenuMobile = ({ title }:HeaderMenuMobileProps) => {
             }
             {
                 (content === 'Hubungi Kami' && show) && <div className={`${(show && content === 'Hubungi Kami') ? ('opacity-100') : ('opacity-0 invisible')} transition-all duration-1000 ease-in-out`}>
-                    <li className="py-2 cursor-pointer">Kotak Pertanyaan</li>
+                    <li className="py-2 cursor-pointer">
+                      <Link href="/question-box">Kotak Pertanyaan</Link>
+                    </li>
                     <li className="py-2 cursor-pointer">Saran Orang Tua / Wali Murid</li>
                 </div>
             }

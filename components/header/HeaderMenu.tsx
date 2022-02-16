@@ -65,7 +65,9 @@ const HeaderMenu = ({ menu }:HeaderMenuProps) => {
                 }
                 {
                     content === 'Hubungi Kami' && <>
-                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">Kotak Pertanyaan</li>
+                        <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">
+                            <Link href="/question-box">Kotak Pertanyaan</Link>
+                        </li>
                         <li className="py-2 hover:text-primary hover:font-medium cursor-pointer transition-all duration-300 ease-in-out">Saran Orang Tua / Wali Murid</li>
                     </>
                 }
